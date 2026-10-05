@@ -1,3 +1,3 @@
-import ballerinax/ai.openai;
+import ballerinax/ai.anthropic;
 
-final openai:ModelProvider openaiModelprovider = check new (string `${openAiKey}`, "gpt-4o");
+final anthropic:ModelProvider openaiModelprovider = check new (string `${key}`, anthropic:CLAUDE_OPUS_4_5, serviceUrl = url);

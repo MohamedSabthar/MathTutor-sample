@@ -1,2 +1,3 @@
 
-configurable string openAiKey = ?;
+configurable string url = ?;
+configurable string key = ?;
