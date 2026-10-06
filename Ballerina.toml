@@ -2,9 +2,13 @@
 org = "admin"
 name = "mathtutor"
 version = "0.1.0"
-distribution = "2201.13.5"
+distribution = "2201.13.6"
 title = "MathTutor"
 
 [build-options]
 sticky = true
 observabilityIncluded = true
+
+[ballerina.log]
+level = "DEBUG"
+format = "json"
