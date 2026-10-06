@@ -8,3 +8,7 @@ title = "MathTutor"
 [build-options]
 sticky = true
 observabilityIncluded = true
+
+[ballerina.log]
+level = "DEBUG"
+format = "json"
