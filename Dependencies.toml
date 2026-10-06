@@ -16,6 +16,7 @@ dependencies = [
 	{org = "ballerina", name = "http"},
 	{org = "ballerina", name = "io"},
 	{org = "ballerina", name = "log"},
+	{org = "ballerina", name = "mcp"},
 	{org = "ballerinai", name = "observe"},
 	{org = "ballerinax", name = "ai.anthropic"}
 ]
@@ -295,6 +296,9 @@ dependencies = [
 	{org = "ballerina", name = "jballerina.java"},
 	{org = "ballerina", name = "log"},
 	{org = "ballerina", name = "uuid"}
+]
+modules = [
+	{org = "ballerina", packageName = "mcp", moduleName = "mcp"}
 ]
 
 [[package]]
