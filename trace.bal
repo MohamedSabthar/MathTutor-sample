@@ -1,1 +1,1 @@
-// import ballerinax/amp as _;
+import ballerinax/amp as _;
