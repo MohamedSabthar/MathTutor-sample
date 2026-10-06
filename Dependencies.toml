@@ -5,7 +5,7 @@
 
 [ballerina]
 dependencies-toml-version = "2"
-distribution-version = "2201.13.6"
+distribution-version = "2201.13.4"
 
 [[package]]
 org = "admin"
@@ -17,7 +17,8 @@ dependencies = [
 	{org = "ballerina", name = "io"},
 	{org = "ballerina", name = "log"},
 	{org = "ballerinai", name = "observe"},
-	{org = "ballerinax", name = "ai.anthropic"}
+	{org = "ballerinax", name = "ai.anthropic"},
+	{org = "ballerinax", name = "amp"}
 ]
 modules = [
 	{org = "admin", packageName = "mathtutor", moduleName = "mathtutor"}
@@ -324,7 +325,7 @@ dependencies = [
 [[package]]
 org = "ballerina"
 name = "observe"
-version = "1.7.3"
+version = "1.7.2"
 dependencies = [
 	{org = "ballerina", name = "jballerina.java"}
 ]
@@ -421,5 +422,18 @@ dependencies = [
 ]
 modules = [
 	{org = "ballerinax", packageName = "ai.anthropic", moduleName = "ai.anthropic"}
+]
+
+[[package]]
+org = "ballerinax"
+name = "amp"
+version = "1.1.0"
+dependencies = [
+	{org = "ballerina", name = "io"},
+	{org = "ballerina", name = "jballerina.java"},
+	{org = "ballerina", name = "observe"}
+]
+modules = [
+	{org = "ballerinax", packageName = "amp", moduleName = "amp"}
 ]
 
