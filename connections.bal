@@ -1,7 +1,7 @@
 import ballerinax/ai.anthropic;
 import ballerina/io;
 
-final anthropic:ModelProvider openaiModelprovider = check new (string `${key}`, anthropic:CLAUDE_OPUS_4_6, serviceUrl = url);
+final anthropic:ModelProvider openaiModelprovider = check new (string `${key}`, anthropic:CLAUDE_OPUS_4_6, serviceUrl = url + "/v1");
 final AiMcpbasetoolkit aiMcpbasetoolkit = check getTk();
 
 function getTk() returns error|AiMcpbasetoolkit {
