@@ -1,6 +1,6 @@
 import ballerina/ai;
 import ballerina/http;
-import ballerina/log;
+// import ballerina/log;
 import ballerina/io;
 
 listener ai:Listener chatAgentListener = new (listenOn = check http:getDefaultListener());
