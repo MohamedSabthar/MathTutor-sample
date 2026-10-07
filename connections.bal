@@ -6,9 +6,9 @@ final AiMcpbasetoolkit aiMcpbasetoolkit = check getTk();
 
 function getTk() returns error|AiMcpbasetoolkit {
     AiMcpbasetoolkit|error tk = new (string `${mcpUrl}`, auth = {
-        tokenUrl: tkep,
-        clientId: cid,
-        clientSecret: csec,
+        tokenUrl: ampAgentidTokenEndpoint,
+        clientId: ampAgentidClientId,
+        clientSecret: ampAgentidClientSecret,
         credentialBearer: "AUTH_HEADER_BEARER"
     });
     if tk is error {

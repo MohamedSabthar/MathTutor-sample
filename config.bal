@@ -2,9 +2,10 @@
 configurable string url = ?;
 configurable string key = ?;
 configurable string mcpUrl = ?;
-configurable string cid = ?;
-configurable string csec = ?;
-configurable string tkep = ?;
+configurable string ampAgentidClientId = ?;
+configurable string ampAgentidClientSecret = ?;
+configurable string ampAgentidTokenEndpoint = ?;
+configurable string ampAgentidScopes = ?;
 
 // export BAL_CONFIG_VAR_MCPURL=http://default-default.gateway.localhost:19080/default/deepwiki/mcp
 // export BAL_CONFIG_VAR_CID=aLek6QPmsHUOO0zH5tEisQ
